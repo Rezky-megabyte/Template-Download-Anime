@@ -1,0 +1,88 @@
+body{
+    transition: 0.3s;
+}
+#DarkMode{
+    background-color: #353535;
+}
+#col-div-banner{
+    background-color: #ebebeb;
+    font-size: 25px;
+    padding-left: 400px;
+    transition: 0.5s;
+}
+#show-search{
+    transition: 0.5s;
+}
+#hide-search{
+    transition: 0.5s;
+}
+#hide-search:focus{
+    width: 300px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: #494949;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover{
+    color: #000000;
+}
+#btn{
+    color:  #353535;
+    font-size: 30px;
+    width: 70px;
+    position: absolute;
+}
+#foo-row{
+    padding-top: 10px;
+}
+#copyr{
+    text-decoration: none; 
+    color: white;
+}
+#copyr:hover{
+    color: #909090;
+    text-decoration: underline;
+}
+.container{
+    transition: 0.5s;
+}
+#contain-dark{
+    background-color: #c8c8c8;
+    box-shadow: 5px 10px 8px #181818;
+    border-radius: 15px;
+}
+@media screen and (max-width: 2000px){
+    #show-search{
+        display: none;
+    }
+}
+@media screen and (max-width: 980px){
+    #hide-search{
+        display: none;
+    }
+    #show-search{
+        display: inline;
+    }
+}
+@media screen and (max-width: 750px){
+    #hide-search{
+        display: none;
+    }
+    #show-search{
+        display: inline;
+    }
+}
+@media screen and (max-width: 500px){
+    #hide-search{
+        display: none;
+    }
+    #show-search{
+        display: inline;
+    }
+}
