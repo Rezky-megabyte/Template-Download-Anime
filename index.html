@@ -1,9 +1,3 @@
-<!-- 
-- Code by : Rezky-Megabyte / Rezu
-- My Website : https://ayotaku.online/
-- 2020
-    ------ Thank You For Downloaded This Code ------ 
--->
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,69 +10,67 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Project!</title>
   </head>
-  <body>
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">Ayotaku.online</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#btn-nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="btn-nav">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Daftar Anime</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Donasi</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a href="" class="nav-link dropdown-toggle" id="btn-dropdown" role="button" data-toggle="dropdown">
-                Fanspage
-              </a>
-              <div class="dropdown-menu bg-dark">
-                <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-instagram"></i> Instagram</a>
-                <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-facebook-f"></i> Facebook</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Cara Download</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-              <button type="button" onclick="setDarkmode(false)" class="btn btn-light"><i class="fa fa-sun-o"></i></button>&nbsp;&nbsp;
-              <button type="button" onclick="setDarkmode(true)" class="btn btn" style="background-color: #181818; color: white;"><i class="fa fa-moon-o"></i></button>&nbsp;&nbsp;
-              <input type="search" class="form-control mr-sm-0" id="hide-search" placeholder="Search..." aria-label="Search">
-          </form>
-          <ul class="navbar-nav" style="margin-right: 80px; margin-left: 10px;">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                You  <i class="fa fa-user"></i>
-              </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-user-circle"></i> Profile</a>
-                <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-cog"></i> Edit Profile</a>
-                <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-sign-out"></i> Logout</a>
-                <div class="dropdown-divider bg-dark"></div>
-                <a class="dropdown-item bg-dark" style="color: white;" href="#"><i class="fa fa-bookmark"></i> Bookmarks</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    <div class="row">
-      <div class="col-md-12" id="show-search">
-          <form action="">
-            <input type="email" class="form-control" style="background-color: #d6d6d6;" placeholder="Search...">
-          </form>
-        </div>
+      <a href="#" class="navbar-brand">Ayotaku.online</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#btn-nav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="btn-nav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Daftar Anime</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Donasi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle" id="btn-dropdown" role="button" data-toggle="dropdown">
+              Fanspage
+            </a>
+            <div class="dropdown-menu bg-dark">
+              <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-instagram"></i> Instagram</a>
+              <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-facebook-f"></i> Facebook</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Cara Download</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <button type="button" onclick="setDarkmode(false)" class="btn btn-light"><i class="fa fa-sun-o"></i></button>&nbsp;&nbsp;
+            <button type="button" onclick="setDarkmode(true)" class="btn btn" style="background-color: #181818; color: white;"><i class="fa fa-moon-o"></i></button>&nbsp;&nbsp;
+            <input type="search" class="form-control mr-sm-0" id="hide-search" placeholder="Search..." aria-label="Search">
+        </form>
+        <ul class="navbar-nav" style="margin-right: 80px; margin-left: 10px;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              You  <i class="fa fa-user"></i>
+            </a>
+            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-user-circle"></i> Profile</a>
+              <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-cog"></i> Edit Profile</a>
+              <a href="#" class="dropdown-item bg-dark" style="color: white;"><i class="fa fa-sign-out"></i> Logout</a>
+              <div class="dropdown-divider bg-dark"></div>
+              <a class="dropdown-item bg-dark" style="color: white;" href="#"><i class="fa fa-bookmark"></i> Bookmarks</a>
+            </div>
+          </li>
+        </ul>
       </div>
-    <div class="alert alert-primary text-center" role="alert" style="color: black;">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      Join Discord Kami, From Ayotaku with Luv #StaySafe
-    </div>
+  </nav>
+        <form action="" id="show-search">
+          <input type="email" class="form-control" style="background-color: #d6d6d6;" placeholder="Search...">
+        </form>
+  <div class="alert alert-primary text-center" role="alert" style="color: black;">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    Join Discord Kami, From Ayotaku with Luv #StaySafe
+  </div>
+  </header>
+  <body>
     <div class="container" id="contain-dark" style="margin-top: 30px;">
       <div class="container">
       <div class="alert bg-dark" style="color: white;" role="alert">
